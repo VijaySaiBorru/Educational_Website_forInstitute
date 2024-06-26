@@ -1,0 +1,49 @@
+{%extends 'app1/home.html'%}
+{%load static%}
+{%block body_block%}
+<link rel="stylesheet" href="{%static "css/style4.css"%}">
+
+<center>
+    <p></p>
+<br>
+<h1>CONTACT US</h1>
+<p></p>
+<br>
+
+<div>
+    <h3>Address</h3>
+    <p>Elearn Infotech - MERN Java Python Fullstack | UI Development React JS 
+        | PHP Web Development UI UX Courses Training Hyderabad
+        Plot no.40 second floor, Vittal Rao Nagar, Madhapur, Telangana 500081
+        Elearn Infotech - MERN Java Python Fullstack | UI Development React JS 
+        | PHP Web Development UI UX Courses Training Hyderabad</p>
+        <p></p>
+        <br>
+    <h3>+91 8464025086</h3>
+    <h3>info@elearninfotech.com</h3>
+</div>
+<div>
+    <br>
+    <br>
+    <form method="POST">
+        {%csrf_token%}
+        {{form}}
+        <button>SUBMIT</button>
+    </form>
+    <br>
+    <br>
+</div>
+
+<p></p>
+<br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3242008306634!2d78.
+38191677516627!3d17.44419028345275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9
+1ed2dea4c17%3A0xd49a55db035ba737!2sElearn%20Infotech%20-%20MERN%20Java%20Python%20Fullstack%2
+0%7C%20UI%20Development%20React%20JS%20%7C%20PHP%20Web%20Development%20UI%20UX%20Courses%20
+Training%20Hyderabad!5e0!3m2!1sen!2sin!4v1709046016046!5m2!1sen!2sin" width="1200" height="400" 
+style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<p></p>
+<br>
+</center>
+{%endblock%}

@@ -1,0 +1,41 @@
+.xyz{
+    display: inline-block;
+    background-color: lightblue;
+    width: 300px;
+}
+
+.abc{
+    display: inline-block;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+marquee{
+    background-color: lightcoral;
+}
+
+button{
+    background-color: lightgoldenrodyellow;
+     
+}
+.choose-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 20px;
+}
+
+button{
+    background-color: rgba(30, 116, 208,0.5);    ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: box-shadow 0.15s,padding-left 0.15,padding-left 0.15;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+button:active {
+    box-shadow: none;
+}

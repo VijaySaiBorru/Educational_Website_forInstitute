@@ -1,0 +1,25 @@
+{%extends 'app1/home.html'%}
+{%load static%}
+{%block body_block%}
+<link rel="stylesheet" href="{%static "css/style5.css"%}">
+<p></p>
+<br>
+<h1>PARENT REG</h1>
+<p></p>
+<p></p>
+<br>
+<center>
+    <div>
+    <p></p>
+    <br>
+    <form method="POST">
+        <p></p>
+        {%csrf_token%}
+        {{form}}
+        <p></p>
+        <button>SUBMIT</button>
+    </form>
+    <br>
+    </div>
+</center>
+{%endblock%}
